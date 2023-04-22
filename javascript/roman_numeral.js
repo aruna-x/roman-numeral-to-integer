@@ -34,6 +34,11 @@ if (require.main === module) {
 
   console.log("");
 
+  console.log("Expecting: 11");
+  console.log(romanNumeral('XI'));
+
+  console.log("");
+
   console.log("Expecting: 402");
   console.log(romanNumeral('CDII'));
 
